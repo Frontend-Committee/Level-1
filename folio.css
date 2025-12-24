@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 206, 212);
+}
+#home{
+    background-color: purple;
+    padding: 10px;
+    color: white;
+    height: 100px;
+    margin-left: 0px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    list-style: none;
+    top: 110px;
+    background-color: black;
+    height: 50px;
+    margin: 0px;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0px 30px;
+    color: white;
+    padding: 15px 16px 17px 16px;
+}
+nav ul li a:hover{
+    background-color: purple;
+}
+.hero{
+    background-color: rgb(158, 74, 236);
+    padding: 13px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+#myWork{
+    padding: 10px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    font-weight: 700;
+}
+#myWork:hover{
+    background-color: purple;
+}
+#about{
+    text-align: center;
+}
+#about p{
+    width: 600px;
+    margin-left: 316px;
+}
+#about h1{
+    color: rgb(76, 33, 116);
+}
+#skills ul li{
+    display: inline-block;
+    width: 200px;
+    height: 120px;
+    background-color: purple;
+    color: white;
+    vertical-align: middle;
+    padding: 20px 10px 0px 10px;
+    margin-right: 20px;
+    border-radius: 8px;
+
+}
+#skills ul{
+    text-align: center;
+}
+#skills{
+    text-align: center;
+}
+#projects{
+    text-align: center;
+}
+#projects li{
+    display: inline-block;
+    width: 550px;
+    margin-right: 40px;
+    background-color: rgb(52, 52, 180);
+    height: 60px;
+    padding-top: 13px;
+    color: white;
+    border-radius: 7px;
+    border: 5px solid purple;
+    letter-spacing: 0.5px;
+}
+#testim{
+    text-align: center;
+    background-color: rgb(27, 152, 255);
+    padding: 5px 0px;
+}
+#testim h1{
+    color: purple;
+}
+#testim p{
+    display: block;
+    background-color: rgb(204, 0, 204);
+    color: white;
+    height: 50px;
+    width: 500px;
+    margin-left: 360px;
+    padding: 10px;
+    border: 5px solid purple;
+    border-radius: 7px;
+}
+#contact{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#contact li{
+    list-style: none;
+}
+#contact input{
+    width: 600px;
+    padding: 5px 3px;
+    margin: 3px 0px;
+    border: 3px solid purple;
+}
+#contact textarea{
+    border: 3px solid purple;
+    margin: 5px;
+}
+#contact button{
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border-radius: 7px;
+    border: 3px solid purple;
+    font-size: larger;
+    font-weight: 600;
+}
+#contact button:hover{
+    background-color: rgb(218, 0, 218);
+}
+form{
+    position: relative;
+}
+#lta{
+    position: absolute;
+    left: 232px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
