@@ -1,0 +1,212 @@
+body{
+    background-color: black;
+}
+
+header.wrapper {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    font-family: "monteserrat", sans-serif;
+    align-items: center;
+    color: #ffffff;
+    height: 88px;
+    /* margin: auto; */
+    padding-right: 200px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 5px;
+    transition: all 0.3s;
+    position: relative;
+}
+a:hover{
+    color: #00bbff;
+    text-decoration: underline;
+    text-underline-offset:15px;
+    text-decoration-thickness:1px ;
+}
+.logo{
+    width: 80px;
+    height: auto;
+    float: left;
+}
+.My-image{
+    display: block;
+    margin-left: auto;
+    margin-right: 50px;
+    width: 50%;
+    margin-top: 10px;
+}
+h1{
+    color: #ffffff;
+    font-family: "monteserrat", sans-serif;
+    padding-left: 70px;
+    margin-top: -500px;
+    font-size: 50px;
+}
+h2{
+    color: #00bbff;
+    font-family: "monteserrat", sans-serif;
+    font-size: 20px;
+    padding-left: 70px;
+    font-weight: normal;
+    margin-top: -30px;
+    letter-spacing: 3px;
+}
+h3{
+    color: #ffffff;
+    font-family: "monteserrat", sans-serif;
+    padding-left: 70px;
+    width: 550px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 100;
+    padding-top: 30px;
+}
+.slider {
+    position: relative;
+    max-width: 1550px;
+    margin: 300px auto;
+    width: 100%;
+}
+
+/* العنوان */
+.title_slide {
+    color: #00c8ff;
+    font-family: "monteserrat", sans-serif;
+    text-align: center;
+    margin: 0 0 60px 0;   /* مسافة تحت العنوان */
+    letter-spacing: 5px;
+    padding-right: 130px;
+}
+
+.title_slide span {
+    color: white;
+}
+
+/* منطقة العرض */
+.viewport {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* الصور */
+.slides {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+/* كل صورة */
+.slide {
+    flex: 0 0 auto;
+    height: 300px;
+    width: auto;
+    border: 5px solid #00bbff;
+    border-radius: 12px;
+}
+
+/* الأسهم */
+.arrow {
+    position: absolute;
+    top: 35%;                     /* في نص الصور */
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+.arrow:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+
+
+
+.slidertwo {
+    position: relative;
+    max-width: 1550px;
+    margin: 30px auto;
+    width: 100%;
+}
+
+/* العنوان */
+.title_slidetwo {
+    color: #00c8ff;
+    font-family: "monteserrat", sans-serif;
+    text-align: center;
+    margin: 0 0 40px 0;   /* مسافة تحت العنوان */
+    letter-spacing: 5px;
+}
+
+/* منطقة العرض */
+.viewporttwo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* الصور */
+.slidestwo {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+}
+
+/* كل صورة */
+.slidetwo {
+    flex: 0 0 auto;
+    height: 300px;
+    width: auto;
+    border: 5px solid #00bbff;
+    border-radius: 12px;
+}
+
+/* الأسهم */
+.arrowtwo {
+    position: absolute;
+    top: 50%;                     /* في نص الصور */
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.55);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.arrowtwo.lefttwo {
+    left: 10px;
+}
+
+.arrowtwo.righttwo {
+    right: 10px;
+}
+
+.arrowtwo:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
