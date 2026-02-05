@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+}
+
+nav h1 {
+  color: white;
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background: #555;
+}
+
+main {
+  margin-top: 120px;
+}
+
+section {
+  background: white;
+  padding: 40px;
+  margin: 20px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+main section:first-child {
+  background: #ddd;
+  text-align: center;
+  padding: 80px;
+}
+
+main section:first-child h2 {
+  font-size: 38px;
+}
+
+main section:first-child a {
+  display: inline-block;
+  margin-top: 20px;
+  background: black;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+
+main section:first-child a:hover {
+  background: gray;
+}
+
+main section:nth-child(2) p {
+  display: inline-block;
+  width: 45%;
+  margin-right: 10px;
+}
+
+main section:nth-child(3) ul {
+  list-style: none;
+  text-align: center;
+}
+
+main section:nth-child(3) li {
+  display: inline-block;
+  width: 230px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+}
+
+article {
+  display: inline-block;
+  width: 270px;
+  border: 1px solid #aaa;
+  padding: 15px;
+  background: white;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+
+article img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+main section:nth-child(5) {
+  background: #eee;
+}
+
+blockquote {
+  border: 1px solid #999;
+  padding: 15px;
+  margin: 15px 0;
+  background: white;
+}
+
+form {
+  width: 65%;
+  margin: auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #888;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 90px;
+}
+
+input[type="submit"] {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background: #555;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+footer ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: white;
+}
