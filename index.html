@@ -1,86 +1,135 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youssef Ahmed</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Youssef Ahmed</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#project">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#testimony">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <h1 id="youssef">Youssef Ahmed</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#testimony">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <section class="hero-section">
         <h1>Hi, I’m Youssef — Frontend Developer</h1>
         <p>I build clean, responsive and fun websites</p>
-        <button id="my-work" type="button">View my work</button>
-        <section>
+        <button id="my-work" type="button" class="btn-primary">View my work</button>
+      </section>
+
+      <section>
         <h2 id="about">About me</h2>
-        <p>I’m a frontend developer passionate about building modern, user‑friendly interfaces. I focus on writing
-        clean HTML, creating semantic structures, and ensuring accessibility across devices.</p>
-        </section>
-        <section>
-            <h2 id="skills">Skills</h2>
-            <ul>
-                <li>Frontend Development: Building responsive web interfaces using semantic HTML, CSS, andJavaScript</li>
-                <li>UI Layout & Structure: Designing clean layouts that are easy to navigate and visually consistent.</li>
-                <li>Accessibility: Ensuring websites follow accessible markup practices for all users.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 id="project">Projects</h2>
-            <ul>
-                <li>Personal Portfolio Website: A clean HTML-only portfolio showcasing my skills and background.</li>
-            </ul>
-        </section>
-        <section>
-            <h2 id="testimony">Testimonials</h2>
-            <div>
-                <p>"Youssef pays attention to detail and always delivers clean and structured code."</p>
-                <p>- client review</p>
-            </div>
-        </section>
-        <section>
-            <h2 id="contact">Contact me</h2>
-            <ul>
-                <li>Email: Youssefahmedrezk2007@gmail.com</li>
-                <li>Phone: 01125773031</li>
-            </ul>
-            <form action="" method="post">
-                <label for="name">Name</label>
-                <br>
-                <input id="name" type="text" name="your-name" placeholder="Your-name" required>
-                <br>
-                <label for="email">Email</label>
-                <br>
-                <input id="email" type="email" name="your-email" placeholder="Your-Email" required>
-                <br>
-                <label for="message">Your Message</label>
-                <br>
-                <textarea name="your-message" id="message" cols="30" rows="10" required></textarea>
-                <br>
-                <button type="submit">Submit Here</button>
-            </form>
-        </section>
+        <p>
+          I’m a frontend developer passionate about building modern,
+          user‑friendly interfaces. I focus on writing clean HTML, creating
+          semantic structures, and ensuring accessibility across devices.
+        </p>
+      </section>
+      <section>
+        <h2 id="skills">Skills</h2>
+        <ul>
+          <li>
+            Frontend Development: Building responsive web interfaces using
+            semantic HTML, CSS, andJavaScript
+          </li>
+          <li>
+            UI Layout & Structure: Designing clean layouts that are easy to
+            navigate and visually consistent.
+          </li>
+          <li>
+            Accessibility: Ensuring websites follow accessible markup practices
+            for all users.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 id="project">Projects</h2>
+        <ul>
+          <li>
+            Personal Portfolio Website: A clean HTML-only portfolio showcasing
+            my skills and background.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 id="testimony">Testimonials</h2>
+        <div>
+          <p>
+            "Youssef pays attention to detail and always delivers clean and
+            structured code."
+          </p>
+          <p>- client review</p>
+        </div>
+      </section>
+      <section>
+        <h2 id="contact">Contact me</h2>
+        <ul>
+          <li>Email: Youssefahmedrezk2007@gmail.com</li>
+          <li>Phone: 01125773031</li>
+        </ul>
+        <form action="" method="post">
+          <label for="name">Name</label>
+          <br />
+          <input
+            id="name"
+            type="text"
+            name="your-name"
+            placeholder="Your-name"
+            required
+          />
+          <br />
+          <label for="email">Email</label>
+          <br />
+          <input
+            id="email"
+            type="email"
+            name="your-email"
+            placeholder="Your-Email"
+            required
+          />
+          <br />
+          <label for="message">Your Message</label>
+          <br />
+          <textarea
+            name="your-message"
+            id="message"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <br />
+          <button type="submit">Submit Here</button>
+        </form>
+      </section>
     </main>
-    <hr>
+    <hr />
     <footer>
-        <section>© 2025 Youssef Ahmed — All Rights Reserved</section>
-        <section>
-            <p>social links</p>
-            <a href="https://github.com/youssefahmedrezk"><img src="images/github-svgrepo-com.svg" alt="Youssef Ahmed GitHub Profile" width="20px"></a>
-            <a href="https://www.linkedin.com/in/youssef-ahmed-ba4642386"><img src="images/linkedin-svgrepo-com.svg" alt="Youssef Ahmed linkedin Profile" width="20px"></a>
-        </section>
+      <section>© 2025 Youssef Ahmed — All Rights Reserved</section>
+      <section>
+        <p>social links</p>
+        <a href="https://github.com/youssefahmedrezk"
+          ><img
+            src="images/github-svgrepo-com.svg"
+            alt="Youssef Ahmed GitHub Profile"
+            width="20px"
+        /></a>
+        <a href="https://www.linkedin.com/in/youssef-ahmed-ba4642386"
+          ><img
+            src="images/linkedin-svgrepo-com.svg"
+            alt="Youssef Ahmed linkedin Profile"
+            width="20px"
+        /></a>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

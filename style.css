@@ -1,20 +1,76 @@
+*{
+    box-sizing: border-box;
+}
 body {
  margin: 0;
  font-family: Arial, sans-serif;
 }
 nav ul{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
-a{
+a:link , a:visited{
     text-decoration: none;
-    color: black;
+    color: #374151;
+}
+a:hover , a:active{
+    color: #2563EB;
 }
 h1{
     text-align: center;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    font-size: 62px ;
+    margin: 0px;
 }
 h2{
     text-align: center;
+    line-height: 1.2;
 }
 p{
     text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+}
+#youssef{
+    text-align: left;
+    margin: 0px;
+}
+header{
+    background-color:#FFFFFF;
+    color: #111827;
+    border-bottom: 1px solid #E5E7EB;
+    padding: 5px 25px;
+}
+nav li{
+    display: inline-block;
+    padding-left: 25px;
+}
+.hero-section{
+    background-color: #F9FAFB;
+    border-bottom: 1px solid #E5E7EB;
+    text-align: center;
+}
+.hero-section h1{
+    color: #111827;
+    margin-bottom: 20px;
+}
+.hero-section p {
+    color: #4B5563;            
+    max-width: 700px;          
+    margin: 0 auto 40px auto;
+}
+.btn-primary{
+    background-color: #2563EB;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-bottom: 30px;
+}
+.btn-primary:hover{
+    background-color: #1E40AF;
 }
