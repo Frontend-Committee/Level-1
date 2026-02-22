@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+main{
+    padding-top: 100px;
+}
 body {
  margin: 0;
  font-family: Arial, sans-serif;
@@ -42,6 +45,11 @@ header{
     color: #111827;
     border-bottom: 1px solid #E5E7EB;
     padding: 5px 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 nav li{
     display: inline-block;
@@ -51,6 +59,7 @@ nav li{
     background-color: #F9FAFB;
     border-bottom: 1px solid #E5E7EB;
     text-align: center;
+    padding-top: 100px;
 }
 .hero-section h1{
     color: #111827;
@@ -73,4 +82,32 @@ nav li{
 }
 .btn-primary:hover{
     background-color: #1E40AF;
+}
+.about-me{
+    background-color: #FFFFFF;
+    padding: 80px 20px;
+    text-align: center;
+}
+.about-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.about-image ,.about-text{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.about-image{
+    width: 35%;
+    padding-right: 40px;
+}
+.about-text{
+    width: 60%;
+}
+.about-placeholder {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    background-color: #E5E7EB;
+    border-radius: 12px;
+    border: 2px dashed #9CA3AF;
 }
