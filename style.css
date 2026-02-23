@@ -71,17 +71,22 @@ nav li{
     margin: 0 auto 40px auto;
 }
 .btn-primary{
-    background-color: #2563EB;
-    color: #FFFFFF;
+    display: inline-block;
+    background-color: transparent;
+    color: #2563EB;
     padding: 14px 28px;
     font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: all 0.3s ease;
     margin-bottom: 30px;
+    border: 2px solid #2563EB;
 }
 .btn-primary:hover{
-    background-color: #1E40AF;
+    background-color: #2563EB;
+    border-color: #2563EB;
+    color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
 }
 .about-me{
     background-color: #FFFFFF;
@@ -110,11 +115,14 @@ nav li{
     background-color: #E5E7EB;
     border-radius: 12px;
     border: 2px solid #9CA3AF;
+    overflow: hidden;
 }
 .skills-sections{
     padding: 80px 20px;
     background-color: #F9FAFB;
     text-align: center;
+    border-top: 1px solid #E5E7EB ;
+    border-bottom: 1px solid #E5E7EB;
 }
 .skills-container{
     max-width: 1100px;
@@ -122,11 +130,70 @@ nav li{
 }
 .skills-card{
     width: 30%;
+    min-width: 250px;
     display: inline-block;
     vertical-align: top;
     background-color: #FFFFFF;
     padding: 30px 20px;
-    margin: 10px;
+    margin: 10px auto;
     border: 1px solid #E5E7EB;
     border-radius: 8px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.skills-card h3, .skills-card p{ 
+    margin-top: 0;
+}
+.skills-card:hover{
+    background-color: #F3F4F6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.project-section {
+    padding: 80px 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid #E5E7EB;
+}
+.project-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.project-card {
+    max-width: 800px;
+    margin: 40px auto;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    transition: box-shadow 0.3s ease;
+}
+.project-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.project-image{
+    width: 100%;
+    height: 250px; 
+    background-color: #F3F4F6;
+    border-bottom: 1px solid #E5E7EB;
+}
+.project-info {
+    padding: 40px;
+}
+.project-info h3 {
+    margin-top: 0;
+    color: #111827;
+}
+.btn-secondary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 24px;
+    background-color: transparent;
+    color: #2563EB;
+    border: 2px solid #2563EB;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btn-secondary:hover {
+    background-color: #2563EB;
+    color: #FFFFFF;
 }
