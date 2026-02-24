@@ -1,12 +1,24 @@
+:root {
+    --bg-main: #0B0F19;      
+    --bg-alt: #111827;       
+    --text-main: #F9FAFB;    
+    --text-muted: #9CA3AF;   
+    --accent: #6366F1;       
+    --accent-hover: #4F46E5; 
+    --border-color: #1F2937; 
+}
 *{
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 main{
-    padding-top: 100px;
+    padding-top: 40px;
 }
 body {
- margin: 0;
- font-family: Arial, sans-serif;
+     margin: 0;
+     font-family: Arial, sans-serif;
 }
 nav ul{
     list-style: none;
@@ -15,7 +27,6 @@ nav ul{
 }
 a:link , a:visited{
     text-decoration: none;
-    color: #374151;
 }
 a:hover , a:active{
     color: #2563EB;
@@ -32,24 +43,27 @@ h2{
     line-height: 1.2;
 }
 p{
-    text-align: center;
     line-height: 1.5;
     font-size: 20px;
 }
 #youssef{
     text-align: left;
     margin: 0px;
+    font-size: 28px;
 }
 header{
     background-color:#FFFFFF;
     color: #111827;
     border-bottom: 1px solid #E5E7EB;
-    padding: 5px 25px;
+    padding: 20px 40px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center
 }
 nav li{
     display: inline-block;
@@ -59,7 +73,7 @@ nav li{
     background-color: #F9FAFB;
     border-bottom: 1px solid #E5E7EB;
     text-align: center;
-    padding-top: 100px;
+    padding: 120px 20px 100px 20px;
 }
 .hero-section h1{
     color: #111827;
@@ -130,7 +144,6 @@ nav li{
 }
 .skills-card{
     width: 30%;
-    min-width: 250px;
     display: inline-block;
     vertical-align: top;
     background-color: #FFFFFF;
@@ -184,10 +197,10 @@ nav li{
 }
 .btn-secondary {
     display: inline-block;
+    color:#2563EB;
     margin-top: 20px;
     padding: 10px 24px;
     background-color: transparent;
-    color: #2563EB;
     border: 2px solid #2563EB;
     border-radius: 6px;
     font-weight: bold;
@@ -196,4 +209,120 @@ nav li{
 .btn-secondary:hover {
     background-color: #2563EB;
     color: #FFFFFF;
+}
+@media (max-width: 768px) {
+    
+    .about-image,.about-text{  
+        display: block; 
+        width: 100%;    
+        padding-right: 0;
+        text-align: center;
+    }
+    .about-image {
+        margin-bottom: 30px;
+    }
+    .skills-card {
+        display: block; 
+        width: 100%;    
+        margin: 20px 0;
+    }
+    body {
+        overflow-x: hidden; 
+    }
+    h1 {
+        font-size: 42px; 
+    }
+}
+.testimonials-section {
+    padding: 80px 20px; 
+    background-color: #F9FAFB;
+    text-align: center;
+}
+.testimonials-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.testimonial-card {
+    display: block; 
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB; 
+    border-radius: 8px;
+    padding: 30px; 
+    margin-bottom: 20px;
+}
+.testimonial-card .quote {
+    font-size: 18px;
+    font-style: italic;
+    color: #4B5563;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.testimonial-card .client-name {
+    font-weight: bold;
+    color: #111827;
+    margin: 0;
+    margin-top: 20px;
+}
+.contact-section {
+    padding: 80px 20px;
+    background-color: #FFFFFF;
+}
+.contact-container {
+    max-width: 600px; 
+    margin: 0 auto;
+}
+.contact-container h2, 
+.contact-info p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-form {
+    text-align: left;
+    margin-top: 30px;
+}
+.contact-form label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #111827;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 24px;
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    display: block;
+}
+.contact-form .btn-primary {
+    width: 100%;
+    cursor: pointer;
+    font-size: 18px;
+    border: 2px solid #2563EB;
+}
+footer {
+    background-color: #F9FAFB;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #E5E7EB;
+}
+footer p {
+    font-size: 16px;
+    color: #4B5563;
+    margin: 10px 0; 
+}
+footer section {
+    margin-top: 20px;
+}
+footer section a {
+    display: inline-block;
+    margin: 0 8px;
+    transition: transform 0.3s ease;
+}
+footer section a:hover {
+    transform: translateY(-4px); 
 }
