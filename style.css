@@ -27,6 +27,7 @@ nav ul{
 }
 a:link , a:visited{
     text-decoration: none;
+    color: #111827;
 }
 a:hover , a:active{
     color: #2563EB;
